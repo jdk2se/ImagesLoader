@@ -22,7 +22,7 @@ const createElement = (tag, classes = [], content) => {
 
 const clearPreview = (el) => {
     el.innerHTML    = '<div class="preview-info_progress"></div>';
-    el.style.bottom = '4px';
+    el.style.bottom = 0;
 }
 
 export function upload(selector, options = {}) {
