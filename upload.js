@@ -110,7 +110,7 @@ export function upload(selector, options = {}) {
             .forEach(el => el.remove());
         const previewInfo = preview.querySelectorAll('.preview-info');
         previewInfo.forEach(clearPreview);
-        uploader(files);
+        uploader(files, previewInfo);
     }
 
     openBtn.addEventListener('click', triggerInput);
