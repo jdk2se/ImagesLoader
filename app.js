@@ -7,4 +7,7 @@ upload('#file', {
         '.jpeg',
         '.png',
     ],
+    uploader(files) {
+
+    }
 });

@@ -37,6 +37,7 @@ body {
 }
 
 .button.primary {
+    margin-left     : 10px;
     background-color: #112ab4;
 }
 
@@ -106,4 +107,19 @@ input[type=file] {
 .preview-img.removing {
     transform : scale(0);
     transition: transform .3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.preview-info_progress {
+    position  : absolute;
+    left      : 0;
+    top       : 0;
+    bottom    : 0;
+    background: rgb(49, 49, 236);
+    text-align: center;
+    transition: width .22s;
+    width     : 30%;
 }
